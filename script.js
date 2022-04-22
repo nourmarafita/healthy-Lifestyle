@@ -168,7 +168,6 @@ let arraySaran = [
   "Kesehatan nomor 1, ayo segera cek kesehatan anda ke faskes terdekat anda.",
   "Jangan sampai obesitas mengintai kehidupan kita, ayo segera rutin menimbang berat badan minimal 1x dalam sebulan.",
   "Segera cek ke faskes terdekat, karena kita wajib mengetahui kadar kolesterol dan gula anda supaya hidup kita makin disiplin dalam menjaga pola makan.",
-  "Segera cek ke faskes terdekat, karena kita wajib mengetahui kadar tersebut supaya hidup kita makin disiplin dalam menjaga pola makan.",
   "Mulai kurangi, karena dikhawatirkan kesehatan mata kita akan terganggu. Perbanyak konsumsi buah-buahan dan sayuran matang.",
   "Saran kami, lakukan jemur dipagi hari karena sinar matahari dipercaya dapat memicu otak untuk melepaskan hormon serotonin, membantu mencegah gangguan pada tulang, meningkatkan kekebalan tubuh dan mengurangi risiko depresi.",
 ];
