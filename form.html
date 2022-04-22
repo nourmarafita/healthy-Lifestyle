@@ -25,12 +25,12 @@
 
 <body>
 
-    <div id="main-container">
+    <div id="main-container" style="margin:0 auto;padding: 0 auto; width:100%;">
 
 
         <div style="display: flex; justify-content:center; align-items: center; height: 100vh; width: 100%;">
 
-            <div class="first-container">
+            <div class="first-container" style="margin-left: 100px;">
                 <h1 class="main-title">Seberapa sehat kamu?</h1>
                 <form action="">
 
@@ -64,7 +64,7 @@
 
         <div class="the-container soal-1" id="soal-1">
             <div class="col-lg-6">
-                <img src="img/olahraga.gif" style="width: 90%; padding-top: 150px;" alt="" />
+                <img src="img/olahraga.gif" style="width: 600px; padding-top: 160px;" alt="" />
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
@@ -91,11 +91,11 @@
 
         <div class="the-container soal-2" id="soal-2">
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/vitamin.gif" style="padding-top: 100px;" alt="" />
+                <img class="img-fluid" src="img/vitamin.gif" style="padding-top: 150px; width: 600px;" alt="" />
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
-                    <h2>Apakah anda sering mengkonsumsi vitamin <br> dan supplement kesehatan?</h2>
+                    <h2>Apakah anda sering mengkonsumsi <br> vitamin dan supplement kesehatan?</h2>
                     <br>
                     <label class="container">Tidak Pernah
                         <input type="radio" name="opsi2" id="tidak2" value="tidak">
@@ -116,9 +116,9 @@
             </div>
         </div>
 
-        <div class="the-container soal-3" id="soal-3">
+        <div class="the-container soal-3" id="soal-3" >
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/fruit.gif" style="width: 115%;" alt="" />
+                <img class="img-fluid" src="img/fruit.gif" style="width: 600px; padding-top: 200px;" alt="" />
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
@@ -142,14 +142,13 @@
                 </form>
             </div>
         </div>
-
-        <div class="the-container soal-4" id="soal-4" style="background-color: #FBF9F8">
-            <div class="col-lg-6">
-                <img class="img-fluid" src="img/protein.gif" alt="" style="padding-top: 272px; padding-left: 100px;" />
+        <div class="the-container soal-4" id="soal-4" style="background-color: #FBF9F8;">
+            <div>
+                <img class="img-fluid" src="img/protein.gif" alt="" style="padding-top: 272px; padding-left: 50px; width: 650px; padding-right: 50px;" />
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
-                    <h2>Seberapa sering anda mengkonsumsi makanan <br> dengan kadar protein tinggi?</h2>
+                    <h2>Seberapa sering anda mengkonsumsi <br> makanan dengan kadar protein tinggi?</h2>
                     <br>
                     <label class="container">Tidak Pernah
                         <input type="radio" name="opsi4" id="tidak4" value="tidak">
@@ -203,7 +202,7 @@
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
-                    <h2>Dalam 3 bulan terakhir, apakah anda sudah <br> cek kesehatan anda ke fasilitas kesehatan
+                    <h2>Dalam 3 bulan terakhir, apakah anda sudah <br> cek kesehatan anda ke fasilitas <br> kesehatan
                         terdekat?</h2>
                     <br>
                     <label class="container">Tidak Pernah
@@ -227,7 +226,7 @@
 
         <div class="the-container soal-7" id="soal-7" style="background-color: #fbfbfb;">
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/timbangan.gif" style="width: 115%; padding-top: 75px;" alt="" />
+                <img class="img-fluid" src="img/timbangan.gif" style="width: 650px; padding-top: 155px;" alt="" />
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
@@ -255,7 +254,7 @@
         <div class="the-container soal-8" id="soal-8">
             <div class="col-lg-6">
                 <img class="img-fluid" src="img/kolesterol.gif"
-                    style="width: 85%;padding-top: 250px; padding-left: 150px;" alt="" />
+                    style="width: 650px;padding-top: 200px; padding-left: 30px;" alt="" />
             </div>
             <div class="col-lg-6">
                 <form action="" class="form-soal">
@@ -282,7 +281,7 @@
 
         <div class="the-container soal-9" id="soal-9">
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/gagdet.gif" style="width: 80%; padding-top: 200px;padding-left: 100px;"
+                <img class="img-fluid" src="img/gagdet.gif" style="width: 650px; padding-top: 200px;padding-left: 100px;"
                     alt="" />
             </div>
             <div class="col-lg-6">
@@ -310,7 +309,7 @@
 
         <div class="the-container soal-10" id="soal-10">
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/jemur.gif" style="width: 100%;padding-left: 200px;padding-top: 200px;"
+                <img class="img-fluid" src="img/jemur.gif" style="width: 800px;padding-left: 150px;padding-top: 200px;"
                     alt="" />
             </div>
             <div class="col-lg-6">
@@ -337,31 +336,32 @@
         </div>
 
 
+        
     </div>
 
-    <div id="saran-container" style="display: none">
-        <h1>HASIL DIAGNOSA</h1>
-        <div id="data"></div>
-        <!-- <h2>Nama</h2>
-        <h2>70% - Sehat</h2>
-        <h2>BMI: 39 - Gemuk</h2> -->
-        <!-- <ul id="daftar-saran">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae unde in earum et labore eius fuga
-                inventore id nulla?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae unde in earum et labore eius fuga
-                inventore id nulla?</li>
-        </ul> -->
+        <div id="saran-container" style="display: none;">
+            <h1>HASIL DIAGNOSA</h1>
+            <div id="data"></div>
+            <!-- <h2>Nama</h2>
+            <h2>70% - Sehat</h2>
+            <h2>BMI: 39 - Gemuk</h2> -->
+            <!-- <ul id="daftar-saran">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae unde in earum et labore eius fuga
+                    inventore id nulla?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae unde in earum et labore eius fuga
+                    inventore id nulla?</li>
+            </ul> -->
 
-        <table id="daftar-saran" border="2">
-            <!-- <tr>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, porro?</td>
-            </tr>
-            <tr>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, porro?</td>
-            </tr> -->
-        </table>
+            <table id="daftar-saran" border="2">
+                <!-- <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, porro?</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, porro?</td>
+                </tr> -->
+            </table>
 
-    </div>
+        </div>
 
     <script src="script.js"></script>
 </body>
