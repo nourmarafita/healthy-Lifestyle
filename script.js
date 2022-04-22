@@ -162,7 +162,7 @@ const daftarSaran = document.getElementById("daftar-saran");
 let arraySaran = [
   "Ayo mulai berolahraga, selain menyehatkan berolahraga juga dapat mencegah datangnya penyakit berat seperti penyakit jantung, struk dll.",
   "Tahukah anda bahwa vitamin dan supplement kesehatan merupakan salah satu faktor penting untuk menjaga imunitas tubuh kita. Dengan terjaga nya imunitas, tubuh kita akan dengan mudah mencegah segala penyakit untuk datang ke tubuh. Jadi sebaiknya mulai konsumsi vitamin mulai dari sekarang dan tetap perhatikan maksimal penggunaan perhari nya untuk usia tertentu.",
-  "Tahukah anda, mengkonsumsi sayur dan buah-buahan bisa meningkatkan istem kekebalan tubuh. Selain itu buah dan sayur juga dipercaya bisa meningkatkan daya ingat dan membuat tubuh lebih bugar. Ayo konsumsi sayur dan buah mulai dari sekarang",
+  "Tahukah anda, mengkonsumsi sayur dan buah-buahan bisa meningkatkan sistem kekebalan tubuh. Selain itu buah dan sayur juga dipercaya bisa meningkatkan daya ingat dan membuat tubuh lebih bugar. Ayo konsumsi sayur dan buah mulai dari sekarang",
   "Ayo mulai perbanyak konsumsi makanan dengan kandungan protein tinggi, karena protein dipercaya dapat menurunkan berat badan, meningkatkan massa dan kekuatan otot, mencegah kerontokan rambut, dan menjaga kekuatan tulang.",
   "Begadang tidak baik untuk tubuh, sebaiknya anda mulai mengatur jam tidur anda setiap harinya dengan cara beraktivitas padat di siang hari agar pada malam hari tubuh lelah dan bisa tidur dengan cepat.",
   "Kesehatan nomor 1, ayo segera cek kesehatan anda ke faskes terdekat anda.",
