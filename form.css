@@ -38,7 +38,8 @@ h2 {
 }
 img {
   max-width: 100%;
-  height: auto
+  height: auto;
+  
 }
 /* .col-lg-6 {
   width: 50%;
@@ -47,8 +48,9 @@ img {
 .the-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 auto;
   /* background: url("img/cover.jpg"); */
   background-position: center;
   width: 100%;
@@ -172,7 +174,7 @@ td {
 .form-soal {
   position: absolute;
   top: 30%;
-  margin-left: 0px;
+  margin: 0 auto;
 }
 
 .form-soal p,
